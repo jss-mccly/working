@@ -4,3 +4,110 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 }
+
+html {
+	background-size: cover;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+html.homebg {
+	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/homebg.jpeg) no-repeat center center fixed;
+}
+
+html.pagebg {
+	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/abstractbg.jpeg) no-repeat center center fixed;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3333FF;
+	border-style: none;
+}
+
+li {
+	text-decoration: none;
+	float: right;
+}
+
+h1 {
+	font-family: 'Courier New', Courier, monotype;
+	color: #000000;
+	font-size: 990%;
+	text-align: left;
+	margin: 12px;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 600%;
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+h3 {
+	font-family: 'Courier New', Courier, monotype;
+	color: #000000;
+	font-size: 300%;
+	margin-left: 18px;
+	margin-bottom: -18px;
+}
+
+p {
+	font-family: 'Courier New', Courier, monotype;
+	color: #000000;
+	font-size: 200%;
+}
+
+p.shift-r {
+	margin-left: 36px;
+	margin-bottom: 6px;
+}
+
+.contact-p {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: bolder;
+	font-size: 200%;
+}
+
+li a:hover {
+	background-color: #000000;
+	color: #3333ff;
+}
+
+li.home {
+	background-color: #F5F5F5;
+	float: left;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: right;
+	font-size: 140%;
+}
+
+img {
+	margin-left: 36px;
+	padding: 0
+}
